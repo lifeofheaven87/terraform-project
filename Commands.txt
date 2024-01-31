@@ -1,0 +1,24 @@
+in cmd
+terraform -v
+
+cd desktop
+git clone git@github.com:lifeofheaven87/terraform-project.git
+cd c:\users\ahril\desktop\terraform=project
+
+git add -A
+git commit -m "first commi"
+git push
+
+
+
+named profile
+aws configure --profile terraform-user
+then put in access key id and secret access key 
+
+
+google terraform aws create vpc ( if you want to know more about the commands)
+google terraform aws provider
+
+
+
+in visual studio code , after configure aws provider and stores the terraform state file in s3, open terminal and type terraform init
