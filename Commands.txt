@@ -22,3 +22,11 @@ google terraform aws provider
 
 
 in visual studio code , after configure aws provider and stores the terraform state file in s3, open terminal and type terraform init
+
+
+to create 
+terraform plan
+terraform apply
+
+shahproject
+password1

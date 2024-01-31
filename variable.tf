@@ -48,3 +48,36 @@ variable "ssh_location"{
   description       = "the ip address that can ssh into the ec2"
   type              = string
 }
+
+# rds variables
+#default is need to copy the arn for rds snapshopt
+variable "database_snapshot_identifier"{
+  default           = "0.0.0.0/0"
+  description       = "the database snapshot arn"
+  type              = string
+}
+
+# rds variables
+#default is need to copy the arn for rds snapshopt
+variable "database_instance_class"{
+  default           = "db.t2.micro"
+  description       = "the database instance type"
+  type              = string
+}
+
+# rds variables
+#default is need to copy the arn for rds snapshopt
+variable "database_instance_identifier"{
+  default           = "db.t2.micro"
+  description       = "the database instance type"
+  type              = string
+}
+
+
+# rds variables
+#default is need to copy the arn for rds snapshopt
+variable "multi_az_deployment"{
+  default           = false
+  description       = "create a standby db instance"
+  type              = bool
+}
